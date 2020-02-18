@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv.samples.puzzle15"
+4    android:versionCode="301"
+5    android:versionName="3.01" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="8"
+8-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="8" />
+9-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:25:5-64
+11-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:25:22-62
+12
+13    <uses-feature
+13-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:27:5-84
+14        android:name="android.hardware.camera"
+14-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:27:19-57
+15        android:required="false" />
+15-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:27:58-82
+16    <uses-feature
+16-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:28:5-94
+17        android:name="android.hardware.camera.autofocus"
+17-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:28:19-67
+18        android:required="false" />
+18-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:28:68-92
+19    <uses-feature
+19-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:29:5-90
+20        android:name="android.hardware.camera.front"
+20-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:29:19-63
+21        android:required="false" />
+21-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:29:64-88
+22    <uses-feature
+22-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:30:5-100
+23        android:name="android.hardware.camera.front.autofocus"
+23-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:30:19-73
+24        android:required="false" />
+24-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:30:74-98
+25
+26    <application
+26-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:7:5-23:19
+27        android:debuggable="true"
+28        android:icon="@drawable/icon"
+28-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:8:9-38
+29        android:label="@string/app_name"
+29-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:9:9-41
+30        android:testOnly="true" >
+31        <activity
+31-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:11:9-22:20
+32            android:name="org.opencv.samples.puzzle15.Puzzle15Activity"
+32-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:12:13-45
+33            android:configChanges="keyboardHidden|orientation"
+33-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:15:13-63
+34            android:label="@string/app_name"
+34-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:13:13-45
+35            android:screenOrientation="landscape" >
+35-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:14:13-50
+36            <intent-filter>
+36-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:17:13-21:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:18:17-69
+37-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:18:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:20:17-77
+39-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/src/main/AndroidManifest.xml:20:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>

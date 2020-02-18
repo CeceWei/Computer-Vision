@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/OpenCVLibrary420/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/cece/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/OpenCVLibrary420/.cxx/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "opencv_jni_shared-Release-armeabi-v7a": {
+      "artifactName": "opencv_jni_shared",
+      "buildCommand": "/home/cece/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/OpenCVLibrary420/.cxx/cmake/release/armeabi-v7a --target opencv_jni_shared",
+      "abi": "armeabi-v7a",
+      "output": "/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/OpenCVLibrary420/.cxx/cmake/release/armeabi-v7a/libopencv_jni_shared.a"
+    }
+  }
+}

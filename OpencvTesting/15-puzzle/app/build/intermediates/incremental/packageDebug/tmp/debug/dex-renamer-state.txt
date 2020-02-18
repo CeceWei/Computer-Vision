@@ -1,0 +1,4 @@
+#Mon Feb 17 15:09:44 CET 2020
+base.0=/home/cece/Documents/AndroidStudioProjects/OpencvTesting/15-puzzle/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
