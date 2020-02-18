@@ -1,2 +1,0 @@
-include ':app', 'OpenCVLibrary420'
-rootProject.name='OpencvTest'
