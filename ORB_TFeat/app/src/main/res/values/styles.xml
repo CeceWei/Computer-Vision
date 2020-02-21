@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:screenOrientation">portrait</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ActivityContentBase">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">72dp</item>
+        <item name="android:paddingBottom">72dp</item>
+    </style>
+
+    <style name="TextAppearanceMainORBTfeat" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Clickable">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>

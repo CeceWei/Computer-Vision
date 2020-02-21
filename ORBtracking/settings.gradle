@@ -1,0 +1,2 @@
+include ':app', 'OpenCVLibrary420'
+rootProject.name='ORBtracking'

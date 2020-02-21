@@ -6,8 +6,8 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
-8-->/home/cece/Documents/OpenCV-android-sdk/samples/OpencvAndroid/OpenCVLibrary420/java/AndroidManifest.xml
+8-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/OpencvAndroid/OpenCVLibrary420/java/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/cece/Documents/OpenCV-android-sdk/samples/OpencvAndroid/OpenCVLibrary420/java/AndroidManifest.xml
+9-->/home/cece/Documents/AndroidStudioProjects/OpencvTesting/OpencvAndroid/OpenCVLibrary420/java/AndroidManifest.xml
 10
 11</manifest>

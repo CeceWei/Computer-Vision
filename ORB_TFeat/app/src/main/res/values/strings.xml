@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ORB_TFeat</string>
+    <string name="main_orb_button">ORB</string>
+    <string name="main_tfeat_button">TFeat</string>
+</resources>
